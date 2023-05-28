@@ -33,6 +33,7 @@
 
 <p align="center">
   <img src="Screenshots/part_1/1.1.3.1.png" />
+  
   <sup> HostMin & Hostmax </sup>
 </p>
 
