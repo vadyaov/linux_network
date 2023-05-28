@@ -107,11 +107,11 @@
 ![yaml ws1](Screenshots/part_2/2.0.ws1.png)
 ![yaml ws2](Screenshots/part_2/2.0.ws2.png)
 <p align="center">
-  <sup> yanl file ws1 & ws2 </sup>
+  <sup> yaml file ws1 & ws2 </sup>
 </p>
 
 ![apply ws1](Screenshots/part_2/apply_ws1.png)
 ![apply ws2](Screenshots/part_2/apply_ws2.png)
 <p align="center">
-  <sup> ws1, ws2 netlan apply </sup>
+  <sup> ws1, ws2 netplan apply </sup>
 </p>
