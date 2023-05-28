@@ -104,14 +104,14 @@
   </p>
 </p>
 
-! [yaml ws1](part2/2.0.ws1.png)
-! [yaml ws2](part2/2.0.ws2.png)
+![yaml ws1](part2/2.0.ws1.png)
+![yaml ws2](part2/2.0.ws2.png)
 <p align="center">
   <sup> ip a  command. Вывод для обеих машин одинаковый </sup>
 </p>
 
-! [apply ws1](part2/apply_ws1.png)
-! [apply ws2](part2/apply_ws2.png)
+![apply ws1](part2/apply_ws1.png)
+![apply ws2](part2/apply_ws2.png)
 <p align="center">
   <sup> ws1, ws2 netlan apply </sup>
 </p>
