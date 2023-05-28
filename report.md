@@ -103,11 +103,12 @@
     <sup> ip a  command. Вывод для обеих машин одинаковый </sup>
   </p>
 </p>
-
-![yaml ws1](Screenshots/part_2/2.0.ws1.png)
-![yaml ws2](Screenshots/part_2/2.0.ws2.png)
 <p align="center">
-  <sup> yaml file ws1 & ws2 </sup>
+  <img src="Screenshots/part_2/2.0.ws1.png" />
+  <img src="Screenshots/part_2/2.0.ws2.png" />
+  <p align="center">
+    <sup> yaml file ws1 & ws2 </sup>
+  </p>
 </p>
 
 ![apply ws1](Screenshots/part_2/apply_ws1.png)
