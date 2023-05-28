@@ -110,8 +110,8 @@
   <sup> ip a  command. Вывод для обеих машин одинаковый </sup>
 </p>
 
-![apply ws1](part2/apply_ws1.png)
-![apply ws2](part2/apply_ws2.png)
+![apply ws1](part_2/apply_ws1.png)
+![apply ws2](part_2/apply_ws2.png)
 <p align="center">
   <sup> ws1, ws2 netlan apply </sup>
 </p>
