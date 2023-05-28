@@ -33,8 +33,8 @@
 
 <p align="center">
   <img src="Screenshots/part_1/1.1.3.1.png" />
+  <sup> HostMin & Hostmax </sup>
 </p>
-    <sup> HostMin & Hostmax </sup>
 
 <!-- ![Скриншот к заданию 1.1(3)](Screenshots/part_1/1.1.3.2.png)
 <sup> HostMin & Hostmax </sup> -->
