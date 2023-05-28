@@ -111,8 +111,10 @@
   </p>
 </p>
 
-![apply ws1](Screenshots/part_2/apply_ws1.png)
-![apply ws2](Screenshots/part_2/apply_ws2.png)
 <p align="center">
-  <sup> ws1, ws2 netplan apply </sup>
+  <img src="Screenshots/part_2/apply_ws1.png" />
+  <img src="Screenshots/part_2/apply_ws2.png" />
+  <p align="center">
+    <sup> ws1, ws2 netplan apply </sup>
+  </p>
 </p>
