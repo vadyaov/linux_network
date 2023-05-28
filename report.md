@@ -104,8 +104,8 @@
   </p>
 </p>
 <p align="center">
-  <img src="Screenshots/part_2/2.0.ws1.png" />
-  <img src="Screenshots/part_2/2.0.ws2.png" />
+  <img src="Screenshots/part_2/ws1.png" />
+  <img src="Screenshots/part_2/ws2.png" />
   <p align="center">
     <sup> yaml file ws1 & ws2 </sup>
   </p>
