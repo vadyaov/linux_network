@@ -103,7 +103,7 @@
 - В отчёт поместить скрин с вызовом и выводом использованной команды.
 
 <p align="center">
-  <img src="Screenshots/part_2/2.1/png" />
+  <img src="Screenshots/part_2/2.1.png" />
   <p align="center">
     <sup> ip a </sup>
   </p>
