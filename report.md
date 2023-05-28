@@ -104,10 +104,10 @@
   </p>
 </p>
 
-![yaml ws1](part2/2.0.ws1.png)
-![yaml ws2](part2/2.0.ws2.png)
+![yaml ws1](Screenshots/part_2/2.0.ws1.png)
+![yaml ws2](Screenshots/part_2/2.0.ws2.png)
 <p align="center">
-  <sup> ip a  command. Вывод для обеих машин одинаковый </sup>
+  <sup> yanl file ws1 & ws2 </sup>
 </p>
 
 ![apply ws1](Screenshots/part_2/apply_ws1.png)
