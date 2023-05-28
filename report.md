@@ -97,12 +97,21 @@
 
 - С помощью команды ip a посмотреть существующие сетевые интерфейсы
 
-- В отчёт поместить скрин с вызовом и выводом использованной команды.
-
 <p align="center">
   <img src="Screenshots/part_2/2.1.png" />
   <p align="center">
-    <sup> ip a </sup>
+    <sup> ip a  command. Вывод для обеих машин одинаковый </sup>
   </p>
 </p>
 
+! [yaml ws1](part2/2.0.ws1.png)
+! [yaml ws2](part2/2.0.ws2.png)
+<p align="center">
+  <sup> ip a  command. Вывод для обеих машин одинаковый </sup>
+</p>
+
+! [apply ws1](part2/apply_ws1.png)
+! [apply ws2](part2/apply_ws2.png)
+<p align="center">
+  <sup> ws1, ws2 netlan apply </sup>
+</p>
