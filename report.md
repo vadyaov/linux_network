@@ -125,8 +125,24 @@
 
 <p align="center">
   <img src="Screenshots/part_2/2.1.1.png" />
+    <p align="center">
+    <sup> ip r add dev enp0s8 ws1 </sup>
+  </p>
   <img src="Screenshots/part_2/2.1.2.png" />
   <p align="center">
-    <sup> ip r add dev enp0s8 </sup>
+    <sup> ip r add dev enp0s8 ws2 </sup>
+  </p>
+</p>
+
+* Пропинговать соединение между машинами
+
+<p align="center">
+  <img src="Screenshots/part_2/2.1.3.png" />
+    <p align="center">
+    <sup> ping from ws1 </sup>
+  </p>
+  <img src="Screenshots/part_2/2.1.4.png" />
+  <p align="center">
+    <sup> ping from ws2 </sup>
   </p>
 </p>
