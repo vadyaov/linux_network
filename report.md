@@ -120,3 +120,13 @@
 </p>
 
 ### 2.1 Добавление статического маршрута вручную
+
+* Добавить статический маршрут от одной машины до другой и обратно при помощи команды вида ip r add
+
+<p align="center">
+  <img src="Screenshots/part_2/2.1.1.png" />
+  <img src="Screenshots/part_2/2.1.2.png" />
+  <p align="center">
+    <sup> ip r add dev enp0s8 </sup>
+  </p>
+</p>
