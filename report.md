@@ -153,7 +153,7 @@
 
 * Добавить статический маршрут от одной машины до другой с помощью файла etc/netplan/00-installer-config.yaml
 
-<p align="center">
+
   <img src="Screenshots/part_2/2.2.1.png" />
     <p align="center">
     <sup> config.yaml ws1 </sup>
@@ -162,4 +162,3 @@
   <p align="center">
     <sup> config.yaml ws2 </sup>
   </p>
-</p>
