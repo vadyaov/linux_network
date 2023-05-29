@@ -168,7 +168,7 @@
   <p align="center">
     <sup> ping from ws1 </sup>
   </p>
-  <img src="Screenshots/part_2/2.2_ping_ws_2.png" />
+  <img src="Screenshots/part_2/2.2_ping_ws2.png" />
   <p align="center">
     <sup> ping from ws2 </sup>
   </p>
