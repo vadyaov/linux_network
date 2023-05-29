@@ -153,11 +153,23 @@
 
 * Добавить статический маршрут от одной машины до другой с помощью файла etc/netplan/00-installer-config.yaml
 
-
 <p align="center">
   <img src="Screenshots/part_2/2.2.1.png" />
   <img src="Screenshots/part_2/2.2.2.png" />
   <p align="center">
     <sup> yaml file ws1 & ws2 </sup>
+  </p>
+</p>
+
+* Пропинговать соединение между машинами
+
+<p align="center">
+  <img src="Screenshots/part_2/2.2_ping_ws1.png" />
+  <p align="center">
+    <sup> ping from ws1 </sup>
+  </p>
+  <img src="Screenshots/part_2/2.2_ping_ws_2.png" />
+  <p align="center">
+    <sup> ping from ws2 </sup>
   </p>
 </p>
