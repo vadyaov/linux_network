@@ -146,3 +146,20 @@
     <sup> ping from ws2 </sup>
   </p>
 </p>
+
+### 2.2 Добавление статического маршрута c сохранением
+
+* Перезапустить машины
+
+* Добавить статический маршрут от одной машины до другой с помощью файла etc/netplan/00-installer-config.yaml
+
+<p align="center">
+  <img src="Screenshots/part_2/2.2.1.png" />
+    <p align="center">
+    <sup> config.yaml ws1 </sup>
+  </p>
+  <img src="Screenshots/part_2/2.2.2.png" />
+  <p align="center">
+    <sup> config.yaml ws2 </sup>
+  </p>
+</p>
