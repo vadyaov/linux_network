@@ -232,21 +232,15 @@ iptables -X
 
 * В отчёт поместить скрины с содержанием файла /etc/firewall для каждой машины.
 <img src="Screenshots/part_4/firewall_ws1.png" />
-<p align="center">
-  <sup> ws1 etc/firewall </sup>
-</p>
 <img src="Screenshots/part_4/firewall_ws2.png" />
 <p align="center">
-  <sup> ws2 etc/firewall </sup>
+  <sup> ws1 & ws2 etc/firewall </sup>
 </p>
 
 * Запустить файлы на обеих машинах командами chmod +x /etc/firewall.sh и /etc/firewall.sh
 
 <img src="Screenshots/part_4/frwl_ws1.png" />
-<p align="center">
-  <sup> ws1 run firewall </sup>
-</p>
 <img src="Screenshots/part_4/frwl_ws2.png" />
 <p align="center">
-  <sup> ws2 run firewall </sup>
+  <sup> ws1 & ws2 run firewall </sup>
 </p>
