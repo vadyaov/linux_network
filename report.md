@@ -194,6 +194,14 @@
   </p>
   <img src="Screenshots/part_3/3.1.2.png" />
   <p align="center">
+    <sup> iperf3 -s (ws2) </sup>
+  </p>
+  <img src="Screenshots/part_3/3.1.3.png" />
+  <p align="center">
+    <sup> iperf3 -c (ws2) </sup>
+  </p>
+  <img src="Screenshots/part_3/3.1.4.png" />
+  <p align="center">
     <sup> iperf3 -s (ws1) </sup>
   </p>
 </p>
