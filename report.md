@@ -231,16 +231,20 @@ iptables -X
   - разрешить echo reply (машина должна "пинговаться")
 
 * В отчёт поместить скрины с содержанием файла /etc/firewall для каждой машины.
-<img src="Screenshots/part_4/firewall_ws1.png" />
-<img src="Screenshots/part_4/firewall_ws2.png" />
+
 <p align="center">
-  <sup> ws1 & ws2 etc/firewall </sup>
+  <img src="Screenshots/part_4/firewall_ws1.png" />
+  <img src="Screenshots/part_4/firewall_ws2.png" />
+  <p align="center">
+    <sup> ws1 & ws2 etc/firewall </sup>
+  </p>
 </p>
 
 * Запустить файлы на обеих машинах командами chmod +x /etc/firewall.sh и /etc/firewall.sh
-
-<img src="Screenshots/part_4/frwl_ws1.png" />
-<img src="Screenshots/part_4/frwl_ws2.png" />
 <p align="center">
-  <sup> ws1 & ws2 run firewall </sup>
+  <img src="Screenshots/part_4/frwl_ws1.png" />
+  <img src="Screenshots/part_4/frwl_ws2.png" />
+  <p align="center">
+    <sup> ws1 & ws2 run firewall </sup>
+  </p>
 </p>
