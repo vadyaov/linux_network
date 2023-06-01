@@ -275,3 +275,34 @@ iptables -X
     <sup> network scheme </sup>
   </p>
 </p>
+
+* Поднять пять виртуальных машин (3 рабочие станции (ws11, ws21, ws22) и 2 роутера (r1, r2)).
+
+### 5.1. Настройка адресов машин
+
+* Настроить конфигурации машин в etc/netplan/00-installer-config.yaml согласно сети на рисунке.
+
+<p align="center">
+  <img src="Screenshots/part_5/5.1.1.png" />
+  <p align="center">
+    <sup> ws11 </sup>
+  </p>
+  <img src="Screenshots/part_5/5.1.2.png" />
+  <p align="center">
+    <sup> r1 </sup>
+  </p>
+  <img src="Screenshots/part_5/5.1.3.png" />
+  <p align="center">
+    <sup> r2 </sup>
+  </p>
+  <img src="Screenshots/part_5/5.1.4.png" />
+  <p align="center">
+    <sup> ws22 </sup>
+  </p>
+  <img src="Screenshots/part_5/5.1.5.png" />
+  <p align="center">
+    <sup> ws21 </sup>
+  </p>
+</p>
+
+* Перезапустить сервис сети. Если ошибок нет, то командой ip -4 a проверить, что адрес машины задан верно. Также пропинговать ws22 с ws21. Аналогично пропинговать r1 с ws11.
