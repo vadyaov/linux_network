@@ -345,3 +345,15 @@ iptables -X
     <sup> ip -4 a ws21 </sup>
   </p>
 </p>
+<p align="center">
+  <img src="Screenshots/part_5/5.1.11.png" />
+  <p align="center">
+    <sup> ping ws22 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.1.12.png" />
+  <p align="center">
+    <sup> ping r1</sup>
+  </p>
+</p>
