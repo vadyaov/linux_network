@@ -257,10 +257,21 @@ iptables -X
 
  > Проверка: в выводе nmap должно быть сказано: Host is up
 
- <p align="center">
+<p align="center">
   <img src="Screenshots/part_4/nmap_ws1.png" />
   <img src="Screenshots/part_4/nmap_ws2.png" />
   <p align="center">
     <sup> ws1 & ws2 nmap </sup>
+  </p>
+</p>
+
+## Part 5. Статическая маршрутизация сети
+
+Сеть:
+
+<p align="center">
+  <img src="Screenshots/part_5/part5_network.png" />
+  <p align="center">
+    <sup> network scheme </sup>
   </p>
 </p>
