@@ -314,3 +314,34 @@ iptables -X
 </p>
 
 * Перезапустить сервис сети. Если ошибок нет, то командой ip -4 a проверить, что адрес машины задан верно. Также пропинговать ws22 с ws21. Аналогично пропинговать r1 с ws11.
+
+<p align="center">
+  <img src="Screenshots/part_5/5.1.6.png" />
+  <p align="center">
+    <sup> ip -4 a ws11 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.1.7.png" />
+  <p align="center">
+    <sup> ip -4 a r1 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.1.8.png" />
+  <p align="center">
+    <sup> ip -4 a r2 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.1.9.png" />
+  <p align="center">
+    <sup> ip -4 a ws22 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.1.10.png" />
+  <p align="center">
+    <sup> ip -4 a ws21 </sup>
+  </p>
+</p>
