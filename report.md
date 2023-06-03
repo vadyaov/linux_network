@@ -451,3 +451,47 @@ default via 10.10.0.1 dev eth0
     <sup> tcpdump </sup>
   </p>
 </p>
+
+### 5.4. Добавление статических маршрутов
+
+* Добавить в роутеры r1 и r2 статические маршруты в файле конфигураций.
+
+<p align="center">
+  <img src="Screenshots/part_5/5.4.1.png" />
+  <p align="center">
+    <sup> r1 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.4.2.png" />
+  <p align="center">
+    <sup> r2 </sup>
+  </p>
+</p>
+
+* Вызвать ip r и показать таблицы с маршрутами на обоих роутерах.
+
+<p align="center">
+  <img src="Screenshots/part_5/5.4.3.png" />
+  <p align="center">
+    <sup> ip r r1 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.4.4.png" />
+  <p align="center">
+    <sup> ip r r2 </sup>
+  </p>
+</p>
+
+* Запустить команды на ws11:
+```ip r list 10.10.0.0/[маска сети] и ip r list 0.0.0.0/0```
+
+<p align="center">
+  <img src="Screenshots/part_5/5.4.5.png" />
+  <p align="center">
+    <sup> ws11 ip r </sup>
+  </p>
+</p>
+
+* IP-адрес 0.0.0.0 — это немаршрутизируемый IPv4-адрес, который можно использовать для различных целей, в основном в качестве адреса по умолчанию или placeholder-а.
