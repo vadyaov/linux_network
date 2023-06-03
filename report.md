@@ -425,3 +425,17 @@ default via 10.10.0.1 dev eth0
     <sup> ip r ws11 </sup>
   </p>
 </p>
+
+<p align="center">
+  <img src="Screenshots/part_5/5.3.5.png" />
+  <p align="center">
+    <sup> ip r ws21 </sup>
+  </p>
+</p>
+
+<p align="center">
+  <img src="Screenshots/part_5/5.3.6.png" />
+  <p align="center">
+    <sup> ip r ws22 </sup>
+  </p>
+</p>
