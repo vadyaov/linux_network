@@ -385,3 +385,34 @@ iptables -X
     <sup> /etc/sysctl.conf </sup>
   </p>
 </p>
+
+### 5.3. Установка маршрута по-умолчанию
+
+Пример вывода команды ip r после добавления шлюза:
+```
+default via 10.10.0.1 dev eth0
+10.10.0.0/18 dev eth0 proto kernel scope link src 10.10.0.2
+```
+
+Настроить маршрут по-умолчанию (шлюз) для рабочих станций. Для этого добавить default перед IP роутера в файле конфигураций
+
+<p align="center">
+  <img src="Screenshots/part_5/5.3.1.png" />
+  <p align="center">
+    <sup> ws11 </sup>
+  </p>
+</p>
+
+<p align="center">
+  <img src="Screenshots/part_5/5.3.2.png" />
+  <p align="center">
+    <sup> ws22 </sup>
+  </p>
+</p>
+
+<p align="center">
+  <img src="Screenshots/part_5/5.3.3.png" />
+  <p align="center">
+    <sup> ws21 </sup>
+  </p>
+</p>
