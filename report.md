@@ -357,3 +357,21 @@ iptables -X
     <sup> ping r1</sup>
   </p>
 </p>
+
+### 5.2. Включение переадресации IP-адресов.
+
+* Для включения переадресации IP, выполните команду на роутерах:
+``` sysctl -w net.ipv4.ip_forward=1 ```
+
+<p align="center">
+  <img src="Screenshots/part_5/5.2.1.png" />
+  <p align="center">
+    <sup> sysctl r1 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.2.2.png" />
+  <p align="center">
+    <sup> sysctl r2 </sup>
+  </p>
+</p>
