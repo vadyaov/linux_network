@@ -375,3 +375,13 @@ iptables -X
     <sup> sysctl r2 </sup>
   </p>
 </p>
+
+* Откройте файл /etc/sysctl.conf и добавьте в него следующую строку:
+``` net.ipv4.ip_forward = 1 ```
+
+<p align="center">
+  <img src="Screenshots/part_5/5.2.3.png" />
+  <p align="center">
+    <sup> /etc/sysctl.conf </sup>
+  </p>
+</p>
