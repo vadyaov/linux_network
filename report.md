@@ -402,14 +402,12 @@ default via 10.10.0.1 dev eth0
     <sup> ws11 </sup>
   </p>
 </p>
-
 <p align="center">
   <img src="Screenshots/part_5/5.3.2.png" />
   <p align="center">
     <sup> ws22 </sup>
   </p>
 </p>
-
 <p align="center">
   <img src="Screenshots/part_5/5.3.3.png" />
   <p align="center">
@@ -425,17 +423,31 @@ default via 10.10.0.1 dev eth0
     <sup> ip r ws11 </sup>
   </p>
 </p>
-
 <p align="center">
   <img src="Screenshots/part_5/5.3.5.png" />
   <p align="center">
     <sup> ip r ws21 </sup>
   </p>
 </p>
-
 <p align="center">
   <img src="Screenshots/part_5/5.3.6.png" />
   <p align="center">
     <sup> ip r ws22 </sup>
+  </p>
+</p>
+
+* Пропинговать с ws11 роутер r2 и показать на r2, что пинг доходит. Для этого использовать команду:
+  ```tcpdump -tn -i eth1```
+
+<p align="center">
+  <img src="Screenshots/part_5/5.3.7.png" />
+  <p align="center">
+    <sup> ping </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_5/5.3.8.png" />
+  <p align="center">
+    <sup> tcpdump </sup>
   </p>
 </p>
