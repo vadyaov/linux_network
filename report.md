@@ -590,3 +590,37 @@ Traceroute фиксирует адрес маршрутизатора, а так
     <sup> ip a </sup>
   </p>
 </p>
+<p align="center">
+  <img src="Screenshots/part_6/6.5.png" />
+  <p align="center">
+    <sup> ping </sup>
+  </p>
+</p>
+
+* Указать MAC адрес у ws11, для этого в etc/netplan/00-installer-config.yaml надо добавить строки: macaddress: 10:10:10:10:10:BA, dhcp4: true
+<p align="center">
+  <img src="Screenshots/part_6/6.6.png" />
+  <p align="center">
+    <sup> yaml mac-addr </sup>
+  </p>
+</p>
+
+* Для r1 настроить аналогично r2, но сделать выдачу адресов с жесткой привязкой к MAC-адресу (ws11). Провести аналогичные тесты.
+<p align="center">
+  <img src="Screenshots/part_6/6.7.png" />
+  <p align="center">
+    <sup> dhcpd </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_6/6.8.png" />
+  <p align="center">
+    <sup> restart </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_6/6.9.png" />
+  <p align="center">
+    <sup> ip a </sup>
+  </p>
+</p>
