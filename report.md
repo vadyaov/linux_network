@@ -567,3 +567,26 @@ Traceroute фиксирует адрес маршрутизатора, а так
     <sup> dhcpd.conf </sup>
   </p>
 </p>
+
+  2. в файле resolv.conf прописать nameserver 8.8.8.8. 
+
+<p align="center">
+  <img src="Screenshots/part_6/6.2.png" />
+  <p align="center">
+    <sup> resolv.conf </sup>
+  </p>
+</p>
+
+* Перезагрузить службу DHCP командой systemctl restart isc-dhcp-server. Машину ws21 перезагрузить при помощи reboot и через ip a показать, что она получила адрес. Также пропинговать ws22 с ws21.
+<p align="center">
+  <img src="Screenshots/part_6/6.3.png" />
+  <p align="center">
+    <sup> systemctl restart isc-dhcp-server </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_6/6.4.png" />
+  <p align="center">
+    <sup> ip a </sup>
+  </p>
+</p>
