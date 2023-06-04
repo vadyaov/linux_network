@@ -560,3 +560,10 @@ Traceroute фиксирует адрес маршрутизатора, а так
         option domain-name-servers 10.20.0.1;
     }
     ```
+
+<p align="center">
+  <img src="Screenshots/part_6/6.1.png" />
+  <p align="center">
+    <sup> dhcpd.conf </sup>
+  </p>
+</p>
