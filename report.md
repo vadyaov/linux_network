@@ -624,3 +624,9 @@ Traceroute фиксирует адрес маршрутизатора, а так
     <sup> ip a </sup>
   </p>
 </p>
+
+* Запросить с ws21 обновление ip адреса.
+
+<p align="center">
+  <img src="Screenshots/part_6/6.10.png" />
+</p>
