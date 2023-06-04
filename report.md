@@ -550,13 +550,13 @@ Traceroute фиксирует адрес маршрутизатора, а так
 
 * Для r2 настроить в файле /etc/dhcp/dhcpd.conf конфигурацию службы DHCP:
   1. указать адрес маршрутизатора по-умолчанию, DNS-сервер и адрес внутренней сети. Пример файла для r2:
-```
-subnet 10.100.0.0 netmask 255.255.0.0 {}
+    ```
+    subnet 10.100.0.0 netmask 255.255.0.0 {}
 
-subnet 10.20.0.0 netmask 255.255.255.192
-{
-    range 10.20.0.2 10.20.0.50;
-    option routers 10.20.0.1;
-    option domain-name-servers 10.20.0.1;
-}
-```
+    subnet 10.20.0.0 netmask 255.255.255.192
+    {
+        range 10.20.0.2 10.20.0.50;
+        option routers 10.20.0.1;
+        option domain-name-servers 10.20.0.1;
+    }
+    ```
