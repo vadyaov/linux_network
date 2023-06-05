@@ -630,3 +630,48 @@ Traceroute фиксирует адрес маршрутизатора, а так
 <p align="center">
   <img src="Screenshots/part_6/6.10.png" />
 </p>
+
+## Part 7. NAT
+
+* В файле /etc/apache2/ports.conf на ws22 и r1 изменить строку Listen 80 на Listen 0.0.0.0:80, то есть сделать сервер Apache2 общедоступным
+
+<p align="center">
+  <img src="Screenshots/part_7/7.1.png" />
+  <p align="center">
+    <sup> ports.conf r1 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_7/7.2.png" />
+  <p align="center">
+    <sup> ports.conf ws22 </sup>
+  </p>
+</p>
+
+* Запустить веб-сервер Apache командой service apache2 start на ws22 и r1
+
+<p align="center">
+  <img src="Screenshots/part_7/7.3.png" />
+  <p align="center">
+    <sup> start r1 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_7/7.4.png" />
+  <p align="center">
+    <sup> start ws22 </sup>
+  </p>
+</p>
+
+* Добавить в фаервол, созданный по аналогии с фаерволом из Части 4, на r2 следующие правила:
+  1. удаление правил в таблице filter - iptables -F
+  2. удаление правил в таблице "NAT" - iptables -F -t nat
+  3. отбрасывать все маршрутизируемые пакеты - iptables --policy FORWARD DROP
+
+* Запускать файл также, как в Части 4
+
+* Проверить соединение между ws22 и r1 командой ping
+
+  4. разрешить маршрутизацию всех пакетов протокола ICMP
+     * Запускать файл также, как в Части 4
+     * Проверить соединение между ws22 и r1 командой ping
