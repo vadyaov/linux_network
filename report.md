@@ -672,6 +672,59 @@ Traceroute фиксирует адрес маршрутизатора, а так
 
 * Проверить соединение между ws22 и r1 командой ping
 
+<p align="center">
+  <img src="Screenshots/part_7/7.5.png" />
+  <p align="center">
+    <sup> ping </sup>
+  </p>
+</p>
+
   4. разрешить маршрутизацию всех пакетов протокола ICMP
-     * Запускать файл также, как в Части 4
-     * Проверить соединение между ws22 и r1 командой ping
+<p align="center">
+  <img src="Screenshots/part_7/7.6.png" />
+</p>
+
+* Запускать файл также, как в Части 4
+* Проверить соединение между ws22 и r1 командой ping
+
+<p align="center">
+  <img src="Screenshots/part_7/7.7.png" />
+  <p align="center">
+    <sup> ping </sup>
+  </p>
+</p>
+
+* Добавить в файл ещё два правила:
+  5. Включить SNAT, а именно маскирование всех локальных ip из локальной сети, находящейся за r2 (по обозначениям из Части 5 - сеть 10.20.0.0)
+  6. Включить DNAT на 8080 порт машины r2 и добавить к веб-серверу Apache, запущенному на ws22, доступ извне сети
+
+<p align="center">
+  <img src="Screenshots/part_7/7.8.png" />
+  <p align="center">
+    <sup> firewall </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_7/7.9.png" />
+  <p align="center">
+    <sup> run </sup>
+  </p>
+</p>
+
+* Проверить соединение по TCP для SNAT, для этого с ws22 подключиться к серверу Apache на r1 командой:
+```telnet [адрес] [порт]```
+
+<p align="center">
+  <img src="Screenshots/part_7/7.10.png" />
+  <p align="center">
+    <sup> check connection </sup>
+  </p>
+</p>
+
+* Проверить соединение по TCP для DNAT, для этого с r1 подключиться к серверу Apache на ws22 командой telnet (обращаться по адресу r2 и порту 8080)
+<p align="center">
+  <img src="Screenshots/part_7/7.11.png" />
+  <p align="center">
+    <sup> check connection </sup>
+  </p>
+</p>
