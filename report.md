@@ -728,3 +728,69 @@ Traceroute фиксирует адрес маршрутизатора, а так
     <sup> check connection </sup>
   </p>
 </p>
+
+## Part 8. Дополнительно. Знакомство с SSH Tunnels
+
+* Запустить на r2 фаервол с правилами из Части 7.
+
+<p align="center">
+  <img src="Screenshots/part_8/8.1.png" />
+  <p align="center">
+    <sup> firewall </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_8/8.2.png" />
+  <p align="center">
+    <sup> run </sup>
+  </p>
+</p>
+
+* Запустить веб-сервер Apache на ws22 только на localhost (то есть в файле /etc/apache2/ports.conf изменить строку Listen 80 на Listen localhost:80)
+
+<p align="center">
+  <img src="Screenshots/part_8/8.4.png" />
+  <p align="center">
+    <sup> ports.conf </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_8/8.4.png" />
+  <p align="center">
+    <sup> apache2 </sup>
+  </p>
+</p>
+<p align="center">
+  <img src="Screenshots/part_8/8.5.png" />
+  <p align="center">
+    <sup> ssh </sup>
+  </p>
+</p>
+
+* Воспользоваться Local TCP forwarding с ws21 до ws22, чтобы получить доступ к веб-серверу на ws22 с ws21
+
+<p align="center">
+  <img src="Screenshots/part_8/8.6.png" />
+  <p align="center">
+    <sup> local </sup>
+  </p>
+</p>
+
+* Воспользоваться Remote TCP forwarding c ws11 до ws22, чтобы получить доступ к веб-серверу на ws22 с ws11
+
+<p align="center">
+  <img src="Screenshots/part_8/8.7.png" />
+  <p align="center">
+    <sup> remote </sup>
+  </p>
+</p>
+
+* Для проверки, сработало ли подключение в обоих предыдущих пунктах, перейдите во второй терминал (например, клавишами Alt + F2) и выполните команду:
+```telnet 127.0.0.1 [локальный порт]```
+
+<p align="center">
+  <img src="Screenshots/part_8/8.7.png" />
+  <p align="center">
+    <sup> connection </sup>
+  </p>
+</p>
