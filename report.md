@@ -749,7 +749,7 @@ Traceroute фиксирует адрес маршрутизатора, а так
 * Запустить веб-сервер Apache на ws22 только на localhost (то есть в файле /etc/apache2/ports.conf изменить строку Listen 80 на Listen localhost:80)
 
 <p align="center">
-  <img src="Screenshots/part_8/8.4.png" />
+  <img src="Screenshots/part_8/8.3.png" />
   <p align="center">
     <sup> ports.conf </sup>
   </p>
@@ -789,7 +789,7 @@ Traceroute фиксирует адрес маршрутизатора, а так
 ```telnet 127.0.0.1 [локальный порт]```
 
 <p align="center">
-  <img src="Screenshots/part_8/8.7.png" />
+  <img src="Screenshots/part_8/8.8.png" />
   <p align="center">
     <sup> connection </sup>
   </p>
